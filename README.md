@@ -1,5 +1,8 @@
-Web calculator side project.
+## Desktop-optimized web calculator
 
-HTML, CSS and Javascript programming languages were used.
+Built with: 
+    • HTML 
+    • CSS 
+    • Javascript
 
-This web calculator is mainly intended to be used by computers and big screens, so the user might struggle if it is loaded on a mobile device.
+• This web calculator is designed for computers and large screens. • You may experience issues when using it on mobile devices.
