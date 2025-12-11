@@ -15,11 +15,13 @@ body{
     overflow: hidden;
 }
 #display{
-    width: 405px;
+    width: 385px;
     padding: 15px;
+    margin: 10px;
     font-size: 3rem;
     text-align: left;
-    border: none;
+    border: solid 1px grey;
+    border-radius: 10px;
     background-color: hsl(0, 0%, 20%);
     color: white;
 }
@@ -60,7 +62,12 @@ button:active{
     color: white;
 }
 .c-btn{
-    grid-column: span 4;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 99%;
+    /* grid-column: span 4; */
     color: #ED2939;
 }
 .c-btn:active{
