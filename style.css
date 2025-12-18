@@ -31,6 +31,7 @@ body{
     grid-template-rows: repeat(5, 100px);
     gap: 5px;
     padding: 10px;
+    margin-left: 2.3px;
 }
 button{
     width: 96.25px;
@@ -42,7 +43,6 @@ button{
     font-size: 2rem;
     cursor: pointer;
     padding: 0;
-    margin-left: 3px;
 }
 button:hover{
     background-color: hsl(0, 0%, 40%);
@@ -67,7 +67,6 @@ button:active{
     grid-column-start: 1;
     grid-column-end: 5;
     width: 99%;
-    /* grid-column: span 4; */
     color: #ED2939;
 }
 .c-btn:active{
@@ -75,25 +74,20 @@ button:active{
     color: #ED2939;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 600px) {
-    body{
-        margin-top: 50px;
-    }
-    #calculator{
+body{
+    margin-top: 50px;
+}
+#calculator{
     max-width: 300px;
     height: fit-content;
     overflow: hidden
-    }
-    #display{
-    width: 250px;
+}
+#display{
+    width: 248px;
     padding: 15px;
     margin: 10px;
+    margin-top: 12px;
     padding-right: 14px;
     font-size: 2rem;
 }
@@ -110,7 +104,6 @@ button{
     height: 100%;
     border-radius: 10px;
     font-size: 1.5rem;
-    margin-left: 3px;
 }
 .c-btn{
     grid-row-start:1 ;
@@ -118,7 +111,6 @@ button{
     grid-column-start: 1;
     grid-column-end: 5;
     width: 100%;
-    /* grid-column: span 4; */
     color: #ED2939;
 }
 }
