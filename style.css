@@ -92,9 +92,9 @@ button:active{
     }
     #display{
     width: 250px;
-    /* padding: 15px; */
-    /* margin: 10px; */
-    /* padding-right: 14px; */
+    padding: 15px;
+    margin: 10px;
+    padding-right: 14px;
     font-size: 2rem;
 }
 #keys{
