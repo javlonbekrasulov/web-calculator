@@ -1,6 +1,6 @@
 body{
     margin-top: 10px;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -73,7 +73,16 @@ button:active{
     background-color: #905D5D;
     color: #ED2939;
 }
+.owner-mention{
+    margin: 10px;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    font-size: 11px
+}
 
+/* Mediaqueries */
 @media screen and (max-width: 600px) {
 body{
     margin-top: 50px;
