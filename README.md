@@ -1,7 +1,10 @@
-## Desktop and mobile optimized web calculator
+## Web calculator
 
-Built with HTML, CSS and Javascript.
+This is a web calculator project, implemented using HTML, CSS and JavaScript programming languages
 
-- This web calculator is designed for both computers and mobile devices.
-- Try the calculator using the link below
+live demo of the project:
 - https://javlonbekrasulov.github.io/web-calculator
+
+## What I learned
+
+- Coding in HTML, CSS and JavaScript
